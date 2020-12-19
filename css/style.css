@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 200px;
+    height: auto;
+}
+
+.table {
+    margin-bottom: 0px;
+}
+
+.contrib-legend {
+    display: block;
+}
+
+.apply-btn {
+    padding: 5px;
+}
+
+li {
+    border-radius: 20%;
+    margin-left: 5px;
+    float: left;
+    width: 15px;
+    height: 15px;
+}
+
+.contrib-legend .legend {
+    margin: 0;
+    list-style: none;
+}
+
+.table > tbody > tr > td {
+    vertical-align: middle;
+}
