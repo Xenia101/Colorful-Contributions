@@ -1,10 +1,7 @@
 // contentscript.js
 
-function main() {
-    colorChange()
-}
-
-function colorChange() {
+function colorChange(colorSet) {
+    /*
     let colorSet = {
         L4: "#0080ff",
         L3: "#03a6ff",
@@ -12,7 +9,9 @@ function colorChange() {
         L1: "#a3daff",
         default: "#ebedf0"
     }
+    */
 
+    /*
     let rect = document.querySelectorAll("rect")
     rect.forEach(element => {
         let fill = element.getAttribute("fill")
@@ -26,6 +25,7 @@ function colorChange() {
             element.setAttribute("fill", colorSet.L1)
         }
     });
+    */
 
     let contribLegend = document.querySelectorAll(".contrib-legend > ul > li")
     let colors = new Array()
@@ -41,8 +41,11 @@ function colorChange() {
 
 chrome.runtime.onMessage.addListener(
     function (request, sender, sendResponse) {
-        console.log(request.colors)
+        colorChange(request.colors)
     }
 )
 
-window.onload = main;
+window.onload = function () {
+    console.log("hello")
+
+}
