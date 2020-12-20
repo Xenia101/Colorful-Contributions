@@ -41,10 +41,7 @@ function colorChange() {
 
 chrome.runtime.onMessage.addListener(
     function (request, sender, sendResponse) {
-        console.log("hi")
-        if (request.foo == "bar") {
-            sendResponse({ baz: "success" })
-        }
+        console.log(request.colors)
     }
 )
 

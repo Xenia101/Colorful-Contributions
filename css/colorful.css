@@ -1,0 +1,41 @@
+/* style-1 */
+#style-1>li:nth-child(1) {
+    background-color: #EBEDF0;
+}
+
+#style-1>li:nth-child(2) {
+    background-color: #A3DAFF;
+}
+
+#style-1>li:nth-child(3) {
+    background-color: #1EC0FF;
+}
+
+#style-1>li:nth-child(4) {
+    background-color: #03A6FF;
+}
+
+#style-1>li:nth-child(5) {
+    background-color: #0080FF;
+}
+
+/* style-2 */
+#style-2>li:nth-child(1) {
+    background-color: #EBEDF0;
+}
+
+#style-2>li:nth-child(2) {
+    background-color: #ffbbd6;
+}
+
+#style-2>li:nth-child(3) {
+    background-color: #fab1ce;
+}
+
+#style-2>li:nth-child(4) {
+    background-color: #f199bc;
+}
+
+#style-2>li:nth-child(5) {
+    background-color: #99f19e;
+}
