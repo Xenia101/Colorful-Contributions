@@ -1,9 +1,11 @@
 // popup.js
 
 $(document).ready(function () {
-    chrome.storage.local.get(["id"], function (items) {
+    // View local storage data
+    // chrome.storage.sync.get(function (result) { console.log(result) })
+
+    chrome.storage.sync.get(["id"], function (items) {
         $('input[value="'.concat((items.id).replace("#", ""), '"]')).prop("checked", true)
-        console.log(items.id)
 
         var colorsArray = new Array()
         $(items.id).children().each(function (idx, val) {
@@ -31,9 +33,6 @@ $('.apply-btn').click(function () {
         colorsArray.push($(this).css("background-color"))
     })
 
-    var items = { id: idSelector };
-    chrome.storage.local.set(items);
-
     let colors = {
         L4: colorsArray[4],
         L3: colorsArray[3],
@@ -41,6 +40,9 @@ $('.apply-btn').click(function () {
         L1: colorsArray[1],
         default: colorsArray[0]
     }
+
+    var items = { id: idSelector, colors: colors };
+    chrome.storage.sync.set(items);
 
     chrome.tabs.getSelected(null, function (tab) {
         chrome.tabs.sendMessage(tab.id, { colors: colors })

@@ -25,17 +25,80 @@
 }
 
 #style-2>li:nth-child(2) {
-    background-color: #ffbbd6;
+    background-color: #FBFFB9;
 }
 
 #style-2>li:nth-child(3) {
-    background-color: #fab1ce;
+    background-color: #FDD692;
 }
 
 #style-2>li:nth-child(4) {
-    background-color: #f199bc;
+    background-color: #EC7357;
 }
 
 #style-2>li:nth-child(5) {
-    background-color: #99f19e;
+    background-color: #754F44;
+}
+
+/* style-3 */
+#style-3>li:nth-child(1) {
+    background-color: #EBEDF0;
+}
+
+#style-3>li:nth-child(2) {
+    background-color: #D499B9;
+}
+
+#style-3>li:nth-child(3) {
+    background-color: #9055A2;
+}
+
+#style-3>li:nth-child(4) {
+    background-color: #2E294E;
+}
+
+#style-3>li:nth-child(5) {
+    background-color: #011638;
+}
+
+/* style-4 */
+#style-4>li:nth-child(1) {
+    background-color: #EBEDF0;
+}
+
+#style-4>li:nth-child(2) {
+    background-color: #ede574;
+}
+
+#style-4>li:nth-child(3) {
+    background-color: #f9d423;
+}
+
+#style-4>li:nth-child(4) {
+    background-color: #fc913a;
+}
+
+#style-4>li:nth-child(5) {
+    background-color: #ff4e50;
+}
+
+/* style-5 */
+#style-5>li:nth-child(1) {
+    background-color: #EBEDF0;
+}
+
+#style-5>li:nth-child(2) {
+    background-color: #9DC8C8;
+}
+
+#style-5>li:nth-child(3) {
+    background-color: #58C9B9;
+}
+
+#style-5>li:nth-child(4) {
+    background-color: #519D9E;
+}
+
+#style-5>li:nth-child(5) {
+    background-color: #D1B6E1;
 }
