@@ -5,7 +5,7 @@ $(document).ready(function () {
     // chrome.storage.sync.get(function (result) { console.log(result) })
 
     chrome.storage.sync.get(["id"], function (items) {
-        $('input[value="'.concat((items.id).replace("#", ""), '"]')).prop("checked", true)
+        $('input[value="'.concat(String(items.id).replace("#", ""), '"]')).prop("checked", true)
 
         var colorsArray = new Array()
         $(items.id).children().each(function (idx, val) {

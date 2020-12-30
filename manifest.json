@@ -1,10 +1,16 @@
 {
     "manifest_version": 2,
-    "name": "XENIA chrome extension",
-    "version": "1.0",
+    "name": "Colorful Contributions",
+    "version": "1.1",
+    "description": "Colorful Contributions is an chrome extension app that makes graphs colorful",
     "browser_action": {
-        "default_icon": "icon/icon.png",
+        "default_icon": "./icon/icon.png",
         "default_popup": "popup.html"
+    },
+    "icons": { 
+        "16": "./icon/icon.png",
+        "48": "./icon/icon.png",
+        "128": "./icon/icon.png" 
     },
     "content_scripts": [
         {
