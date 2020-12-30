@@ -11,8 +11,13 @@
 </p>
 
 <p align=center>
+<<<<<<< HEAD
     <img width="500px" src="./md-img/sample-style-1.PNG">
     <img width="500px" src="./md-img/sample-style-2.PNG">
+=======
+    <img src="./md-img/sample-style-1.PNG">
+    <img src="./md-img/sample-style-2.PNG">
+>>>>>>> 7a2ef52b876e06696a93888e749b16a4baf4ecf5
 </p>
 
 <p>🎨 <strong>Colorful Contributions</strong> is an chrome extension app that makes graphs colorful</p>
