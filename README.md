@@ -84,4 +84,4 @@
 
 ---
 
-© 2021 XENIA101 - Released under GPL License
+<p align=center>© 2021 XENIA101 - Released under GPL License 2.0</p>
