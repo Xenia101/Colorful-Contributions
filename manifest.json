@@ -7,10 +7,10 @@
         "default_icon": "./icon/icon.png",
         "default_popup": "popup.html"
     },
-    "icons": { 
+    "icons": {
         "16": "./icon/icon.png",
         "48": "./icon/icon.png",
-        "128": "./icon/icon.png" 
+        "128": "./icon/icon.png"
     },
     "content_scripts": [
         {
@@ -19,7 +19,9 @@
             ],
             "js": [
                 "contentscript.js"
-            ]
+            ],
+            "run_at": "document_start",
+            "all_frames": true
         }
     ],
     "permissions": [
