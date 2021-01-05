@@ -33,8 +33,8 @@
 ## Customizing
 
 - ### Using UI on tab
-    - [] User customizing UI
-    - [] Refectoring 
+    - [ ] User customizing UI
+    - [ ] Refectoring 
 
 - ### Direct access to code
 
