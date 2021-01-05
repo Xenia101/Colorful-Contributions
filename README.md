@@ -16,7 +16,7 @@
 </p>
 
 <p>🎨 <strong>Colorful Contributions</strong> is an chrome extension app that makes graphs colorful</p>
-<p>📌 Pull requests and [issue](https://github.com/Xenia101/Colorful-Contributions/issues) are welcome :)</p>
+<p>📌 Pull requests and <a href="https://github.com/Xenia101/Colorful-Contributions/issues">issue</a> are welcome :)</p>
  
 ---
 
